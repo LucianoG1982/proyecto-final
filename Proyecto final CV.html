@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV MAKING</title>
+    <link rel="icon" type="image/x-icon" href="icono/icono-2.ico">
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+ 
+</head>
+
+<body>
+    <h1>CARGA DE CURRICULUM VITAE</h1>
+    
+    <div>
+    <h2> Perfil del Candidato</h2>
+    
+    <form action="" method="post"action="#" enctype="multipart/form-data">
+    
+    <div>
+        <img src="cara.jpg" alt="avatar" id="img" />
+        <input type="file" name="foto" id="foto" accept="image/*" />
+        <label for="foto">Cambiar foto</label>
+        <button type="submit">Guardar cambios</button>
+    </div>
+    
+        
+    
+
+</div>
+
+    <div class="contenedor">
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="ingrese su nombre" />
+        <label>Apellido</label>
+        <input type="text" name="apellido" placeholder="ingrese su apellido" />
+        <label>lugar de nacimiento</label>
+        <input type="text" name="lugar" placeholder="ingrese su lugar" />
+        <label>Fecha de nacimiento</label>
+        <input type="date" name="Fecha" placeholder="ingrese su Fecha" />
+        
+    </div>
+    
+    
+    <div class="contenedor"><br />
+        <label>Edad</label>
+        <input type="text" name="número" placeholder="ingrese su edad" />
+        <label>Profesión</label>
+        <input type="text" name="profesión" placeholder="ingrese su profesión" />
+        <label>Idioma Nativo</label>
+        <input type="text" name="idioma" placeholder="ingrese su idioma" />
+        <label>Ciudad de Residencia</label>
+        <input type="text" name="Ciudad" placeholder="ingrese su Ciudad" />
+    </div>
+
+     <div class="contenedor"><br />
+        <label>Codigo Postal</label>
+        <input type="text" name="Codigo" placeholder="ingrese su codigo postal" />
+        <label>Email</label>
+        <input type="text" name="Email" placeholder="ingrese su Email">
+        <label>Telefono</label>
+        <input type="text" name="telefono" placeholder="ingrese su Nº de telefono">
+        <label>link redes sociales</label>
+        <input type="text" name="link" placeholder="ingrese su link" />
+     </div>
+
+<div>
+    <table border="5"  style="color:white;">
+     <tr> 
+         <td colspan="4">Escoger nacionalidad </td>                                                            
+            </tr>
+            </tr> 
+            <td>Argentina: <input type="radio" name="citizenship" /></td>
+            <td>Española: <input type="radio" name="citizenship" /></td>
+            <td>Italiana: <input type="radio" name="citizenship" /></td>
+            <td>Otra: <textarea cols="10" rows="1"> </textarea></td>
+            </tr>
+            </table><br/>
+    
+    <table border="5" style="color:white;">    
+        <tr>
+        <td colspan="2">Escoger genéro</td>
+        </tr>
+        <tr>
+        <td>Femenino: <input type="radio" name="sex" /></td>
+        <td>Masculino: <input type="radio" name="sex" /></td>
+        </tr>
+        </p>
+    </table>
+</div>
+
+
+
+        <h5>CARGA DE CV
+        <br/><input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+        <input type="file" />
+        </h5>
+    
+        
+    <div><br />
+            <input type="reset" value="Limpiar formulario" />
+            <input type="submit" value="enviar">
+            </div>
+            <div>
+        <div>
+
+</form>
+
+    <h6>Fomulario ejemplo
+    <a download="cv ejemplo"   href="cv-ejemplo.pdf"><button>descarga de cv</button></a>
+    </h6>
+
+
+
+<h3>contacto</h3>
+<button onclick="myFunction()">hacer click para ver el contacto</button>
+<p id="demo"></p>
+<script> function myFunction() {document.getElementById("demo").innerHTML = "cv.making@cvmaking.com";}
+</script>
+<script src="script.js"></script>
+</body>
+</html>
